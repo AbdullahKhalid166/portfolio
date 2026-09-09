@@ -31,8 +31,8 @@ export const Hero: React.FC = () => {
           {/* Hero Actions */}
           <div className="flex flex-wrap items-center gap-space-md">
             <a
-              href="/Abdullah_Khalid_CV_2026.docx"
-              download="Abdullah_Khalid_CV_2026.docx"
+              href="/Abdullah_Khalid_CV_2026.pdf"
+              download="Abdullah_Khalid_CV_2026.pdf"
               className="inline-flex items-center justify-center font-label-code text-label-code bg-primary text-on-primary border border-primary px-space-xl py-space-sm hover:bg-surface hover:text-primary transition-all duration-150 uppercase font-medium group"
             >
               DOWNLOAD CV <span className="ml-space-xs font-mono group-hover:translate-y-0.5 transition-transform">↓</span>

@@ -65,11 +65,11 @@ ${EDUCATION_DATA.map((ed) => `- ${ed.title}, ${ed.institution} (${ed.metadata})`
 
           <div className="flex items-center gap-space-sm">
             <a
-              href="/Abdullah_Khalid_CV_2026.docx"
-              download="Abdullah_Khalid_CV_2026.docx"
+              href="/Abdullah_Khalid_CV_2026.pdf"
+              download="Abdullah_Khalid_CV_2026.pdf"
               className="inline-flex items-center gap-1.5 font-label-code text-[12px] bg-primary text-on-primary px-3 py-1 hover:bg-surface hover:text-primary border border-primary transition-colors uppercase font-medium"
             >
-              Download DOCX
+              Download PDF
             </a>
             <button
               onClick={handlePrint}
