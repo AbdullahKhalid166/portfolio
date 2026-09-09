@@ -12,28 +12,25 @@ export const PERSONAL_INFO = {
   linkedin: 'https://www.linkedin.com/in/abdullah-khalid-021382315/',
   heroImage: '/profile.jpg',
   systemStats: [
-    { label: 'ACTIVE DEPLOYMENTS', value: '04' },
-    { label: 'SCALE PEAK', value: '150M+ EVENTS' },
-    { label: 'INFERENCE TAIL', value: '< 28MS' },
-    { label: 'SYSTEM RELIABILITY', value: '99.98%' },
+    { label: 'SYSTEM RELIABILITY', value: '99.98%' }
   ]
 };
 
 export const CORE_PILLARS = [
   {
     code: '01.01',
-    title: 'Mathematical Rigor',
-    description: 'Strict analytical grounding from objective loss geometry to numerical precision quantization schemes (FP8, INT4, AWQ).'
+    title: 'DATA-DRIVEN MODELING',
+    description: 'Comparing algorithms (XGBoost, RandomForest, etc.) on real metrics rather than picking one by default, and treating data quality as the first bottleneck, not the model.'
   },
   {
     code: '01.02',
-    title: 'Production Engineering',
-    description: 'Architectures resilient to node failure, network partitions, dynamic batching spikes, and unbounded input lengths.'
+    title: 'SHIPPING, NOT JUST TRAINING',
+    description: 'Turning models into usable tools — a working SmartPOS system, dashboards, and deployable predictors — not just notebooks or one-off scripts that never leave a test file.'
   },
   {
     code: '01.03',
-    title: 'Algorithmic Efficiency',
-    description: 'Sub-millisecond optimizations across memory hierarchies, kernel fusions, and distributed tensor-parallel schedules.'
+    title: 'FULL-STACK CURIOSITY',
+    description: 'Comfortable moving between layers — from an SQL-backed data layer, to a trained model, to a deployed interface — instead of staying in just one part of the stack.'
   }
 ];
 
@@ -43,9 +40,9 @@ export const SKILLS_DATA: SkillItem[] = [
     number: '01',
     category: 'CORE',
     title: 'Python',
-    description: 'Scientific computing, neural networks, scripting & data pipelines.',
-    details: ['NumPy / SciPy', 'PyTorch / JAX', 'FastAPI & AsyncIO', 'Cython / C Extensions'],
-    level: 'EXPERT'
+    description: 'Scripting, data handling, and building ML models end-to-end.',
+    details: ['NumPy / Pandas', 'Scikit-learn', 'Data Cleaning & Preprocessing', 'Script Automation'],
+    level: 'PROFICIENT'
   },
   {
     id: 'ml',
@@ -53,44 +50,44 @@ export const SKILLS_DATA: SkillItem[] = [
     category: 'CORE',
     title: 'Machine Learning',
     description: 'Model training, classification, predictive systems & evaluation.',
-    details: ['Transformer Architectures', 'Gradient Boosting (XGBoost/LightGBM)', 'Model Quantization (AWQ/GPTQ)', 'MLOps & Experiment Tracking'],
-    level: 'ADVANCED'
+    details: ['XGBoost / RandomForest', 'Model Evaluation & Metrics', 'Feature Engineering', 'Currently exploring deep learning frameworks'],
+    level: 'INTERMEDIATE'
   },
   {
     id: 'aws',
     number: '03',
     category: 'CLOUD',
     title: 'AWS',
-    description: 'Cloud infrastructure, scalable hosting & managed computing services.',
-    details: ['Amazon ECS / EKS', 'SageMaker Model Endpoints', 'S3 & Glacier Storage', 'Lambda / API Gateway'],
-    level: 'ADVANCED'
+    description: 'Core cloud infrastructure and hosting fundamentals.',
+    details: ['EC2 & S3', 'IAM Basics', 'Deploying Simple Web Services', 'Learning as I build my FYP'],
+    level: 'LEARNING'
   },
   {
     id: 'sql',
     number: '04',
     category: 'DATA',
     title: 'SQL',
-    description: 'Relational schema design, complex querying & data manipulation.',
-    details: ['PostgreSQL & TimescaleDB', 'Query Optimization & Indexing', 'ETL / ELT Pipelines', 'Redis Cache Invalidation'],
-    level: 'EXPERT'
+    description: 'Relational schema design and querying for real applications.',
+    details: ['PostgreSQL / MySQL', 'Joins & Aggregation', 'Schema Design', 'Query Writing for App Backends'],
+    level: 'PROFICIENT'
   },
   {
     id: 'dsa',
     number: '05',
     category: 'FOUNDATIONS',
     title: 'DSA',
-    description: 'Data structures, algorithmic efficiency & computational problem solving.',
-    details: ['Graph Algorithms & DP', 'Tree Partitioning & Tries', 'Asymptotic Complexity Analysis', 'Cache-Aware Data Structures'],
-    level: 'EXPERT'
+    description: 'Data structures, algorithmic efficiency & problem solving.',
+    details: ['Trees, Graphs & Hashing', 'Sorting & Searching', 'Complexity Analysis', 'Problem Solving (LeetCode-style)'],
+    level: 'PROFICIENT'
   },
   {
     id: 'webdev',
     number: '06',
     category: 'FULL-STACK',
     title: 'Web Dev',
-    description: 'Modern responsive interfaces, REST APIs & interactive web apps.',
-    details: ['React / TypeScript', 'Tailwind CSS / Swiss Design', 'WebSockets Streaming', 'State Management & Telemetry UI'],
-    level: 'ADVANCED'
+    description: 'Building responsive web apps and connecting them to real data.',
+    details: ['HTML / CSS / JavaScript', 'React Basics', 'REST API Integration', 'Building Dashboards & UIs'],
+    level: 'INTERMEDIATE'
   }
 ];
 
@@ -136,7 +133,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Life Dashboard',
     tagline: 'Unified Personal Telemetry & Executive Productivity System',
     description: 'Unified personal telemetry and executive productivity system integrating real-time telemetry streaming, metric aggregation, and interactive operational charts.',
-    tags: ['Web Dev', 'SQL', 'Python', 'Analytics'],
+    tags: ['HTML','Bootstrap', 'SQL', 'Analytics'],
     githubUrl: 'https://github.com/AbdullahKhalid166/Life-Dashboard',
     caseStudy: {
       overview: 'High-density personal analytics platform unifying biometric inputs, code repository activity, calendar load, and task throughput into a coherent Swiss-style telemetry console.',
@@ -152,7 +149,7 @@ export const PROJECTS_DATA: Project[] = [
         { metric: 'Query Latency', value: '< 8ms', note: 'Indexed time-series aggregations' },
         { metric: 'Bundle Size', value: '42 kB', note: 'Zero heavy charting dependencies' }
       ],
-      technologies: ['React', 'TypeScript', 'PostgreSQL', 'TimescaleDB', 'Python', 'WebSockets'],
+      technologies: ['React', 'TypeScript', 'PostgreSQL', 'TimescaleDB', 'WebSockets'],
       keyDecisions: [
         'Engineered custom SVG sparklines over heavy charting libraries to maintain instant page renders',
         'Implemented client-side IndexedDB caching for immediate offline availability'
@@ -229,7 +226,7 @@ export const PROJECTS_DATA: Project[] = [
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     id: 'elevvo',
-    period: '2024 — PRESENT',
+    period: 'aug 2026 — PRESENT',
     company: 'ELEVVO PATHWAYS',
     location: 'REMOTE',
     role: 'Machine Learning & Software Engineering Intern',
@@ -244,7 +241,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   },
   {
     id: 'flycon-lead',
-    period: '2024',
+    period: '2026',
     company: 'FLYCON AI',
     location: 'REMOTE',
     role: 'Team Lead — Machine Learning',
@@ -255,7 +252,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Conducted over 60+ rigorous code reviews maintaining strict architectural standards.',
       'Shipped client-ready computer vision and tabular classification models on schedule.'
     ],
-    techStack: 'Python, PyTorch, System Design, Agile Leadership'
+    techStack: 'Python, Github, System Design, Agile Leadership'
   },
   {
     id: 'flycon-intern',
@@ -277,7 +274,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 export const EDUCATION_DATA: EducationItem[] = [
   {
     type: 'DEGREE',
-    institution: 'University Computing Faculty',
+    institution: 'Lahore Garrison University',
     title: 'Bachelor in Computer Science',
     subtitle: 'Foundations in Computing & Systems',
     metadata: 'CORE: DATA STRUCTURES, ALGORITHMS & SYSTEMS'

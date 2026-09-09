@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, onToggleTheme }) => {
     { id: 'skills', label: '02 // SKILLS' },
     { id: 'projects', label: '03 // PROJECTS' },
     { id: 'experience', label: '04 // EXPERIENCE' },
-    { id: 'foundations', label: '05 // FOUNDATIONS' },
+    { id: 'foundations', label: '05 // CERTIFICATIONS' },
     { id: 'contact', label: '06 // CONTACT' },
   ];
 

@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
                 001
               </span>
               <span className="font-label-code text-label-code uppercase tracking-wider text-secondary">
-                ARCHITECTURAL MANIFESTO // PORTFOLIO
+               // PORTFOLIO
               </span>
             </div>
 

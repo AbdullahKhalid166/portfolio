@@ -14,16 +14,14 @@ export const Philosophy: React.FC = () => {
         {/* Core Content */}
         <div className="md:col-span-9 flex flex-col">
           <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase text-primary tracking-tight mb-space-xl leading-tight font-bold">
-            Bridging frontier machine learning research and resilient production architectures.
+            LEARNING TO BUILD MACHINE LEARNING SYSTEMS THAT ACTUALLY WORK, END TO END.
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-space-xl font-body-md text-body-md text-secondary leading-relaxed mb-space-2xl">
             <p>
-              Machine learning has transitioned from an exploratory empirical science into an unapologetic systems engineering problem. The barrier to state-of-the-art inference is rarely conceptual; it is memory bandwidth, distributed concurrency, microsecond tail latencies, and rigorous data telemetry.
-            </p>
+I'm a Computer Science student who got pulled into machine learning by wanting to see models do something beyond a notebook — predict, decide, or power a product someone can actually use. That's meant spending as much time on data cleaning, algorithm comparison, and deployment as on the model itself, because an accurate model that no one can use isn't really finished work.            </p>
             <p>
-              I develop end-to-end intelligence stacks: formulating neural architectures, engineering custom CUDA kernels for extreme acceleration, and structuring modular user interfaces that translate raw matrix multiplications into intuitive, responsive enterprise utilities.
-            </p>
+Across my internships and projects, I've worked as an ML team lead building SmartPOS-ML, built predictive models like a disease-risk predictor with XGBoost and RandomForest, and shipped a personal dashboard end-to-end. Alongside that, I'm building out my systems side — SQL, AWS, and core data structures and algorithms — so I can take a project from raw data to a deployed interface myself.            </p>
           </div>
 
           {/* Core Pillars */}

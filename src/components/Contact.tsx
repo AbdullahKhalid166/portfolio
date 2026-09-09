@@ -14,7 +14,7 @@ export const Contact: React.FC = () => {
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'transmitting' | 'sent' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const targetEmail = 'fa23-bscs-166@cs.gu.edu.pk';
+  const targetEmail = 'abdullahkhalid166lgue@gmail.com';
   const emailSubject = 'I have a query';
   const mailtoUrl = `mailto:${targetEmail}?subject=${encodeURIComponent(emailSubject)}`;
   const gmailWebUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(targetEmail)}&su=${encodeURIComponent(emailSubject)}`;
@@ -87,7 +87,6 @@ export const Contact: React.FC = () => {
 
           <div className="mt-space-lg hidden md:flex flex-col gap-space-xs font-label-code text-[11px] text-secondary">
             <span>LOCATION: {PERSONAL_INFO.location}</span>
-            <span>ENCRYPTION: TLS 1.3</span>
             <span>RESPONSE: &lt; 24 HOURS</span>
           </div>
         </div>
@@ -141,7 +140,7 @@ export const Contact: React.FC = () => {
                     <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c-.88 0-1.59-.71-1.59-1.59s.71-1.59 1.59-1.59 1.59.71 1.59 1.59-.71 1.59-1.59 1.59M7.86 18.5v-8.37H5.07v8.37h2.79z"></path>
                   </svg>
                   <span className="font-label-code text-label-code text-primary uppercase font-semibold">
-                    LINKEDIN / in/abdullah-khalid-021382315
+                    LINKEDIN / in/abdullah-khalid
                   </span>
                 </div>
                 <span className="font-label-code text-label-code text-secondary group-hover:text-primary">
@@ -178,15 +177,6 @@ export const Contact: React.FC = () => {
                       </>
                     )}
                   </button>
-                  <a
-                    href={gmailWebUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-label-code text-[11px] border border-primary/20 px-2 py-1 text-secondary hover:text-primary hover:border-primary transition-colors flex items-center gap-1 uppercase"
-                    title="Open directly in Gmail Web Compose"
-                  >
-                    GMAIL WEB ↗
-                  </a>
                 </div>
               </div>
             </div>

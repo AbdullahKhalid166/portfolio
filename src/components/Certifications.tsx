@@ -11,7 +11,7 @@ export const Foundations: React.FC = () => {
         {/* Left Meta Column */}
         <div className="md:col-span-3">
           <span className="font-label-code text-label-code text-primary uppercase font-semibold">
-            05 // FOUNDATIONS
+            05 // CERTIFICATIONS
           </span>
           <div className="font-label-meta text-label-meta uppercase text-secondary mt-1">
             ACADEMIA &amp; CREDENTIALS

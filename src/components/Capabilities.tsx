@@ -94,11 +94,6 @@ export const Capabilities: React.FC = () => {
               );
             })}
           </div>
-
-          <div className="font-label-code text-[12px] text-secondary pt-space-xs flex items-center justify-between border-t border-primary/10">
-            <span>[CLICK CARDS TO INSPECT ARCHITECTURAL DETAILS]</span>
-            <span>SHOWING {filteredSkills.length} OF {SKILLS_DATA.length} MODULES</span>
-          </div>
         </div>
       </div>
     </section>

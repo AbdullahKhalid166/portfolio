@@ -5,7 +5,7 @@ import { Philosophy } from './components/Philosophy';
 import { Capabilities } from './components/Capabilities';
 import { SelectedWorks } from './components/SelectedWorks';
 import { Experience } from './components/Experience';
-import { Foundations } from './components/Foundations';
+import { Foundations } from './components/Certifications';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -53,13 +53,13 @@ export const App: React.FC = () => {
           {/* SECTION 002: CAPABILITIES & TECHNICAL MATRIX */}
           <Capabilities />
 
-          {/* SECTION 003: SELECTED WORKS */}
+          {/* SECTION 003: MY PROJECTS */}
           <SelectedWorks />
 
           {/* SECTION 004: EXPERIENCE & TRAJECTORY */}
           <Experience />
 
-          {/* SECTION 005: FOUNDATIONS */}
+          {/* SECTION 005: CERTIFICATIONS */}
           <Foundations />
 
           {/* SECTION 006: CONNECT / INTERFACE */}
