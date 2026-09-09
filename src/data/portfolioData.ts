@@ -10,10 +10,7 @@ export const PERSONAL_INFO = {
   email: 'abdullahkhalid166lgue@gmail.com',
   github: 'https://github.com/AbdullahKhalid166',
   linkedin: 'https://www.linkedin.com/in/abdullah-khalid-021382315/',
-  heroImage: '/profile.jpg',
-  systemStats: [
-    { label: 'SYSTEM RELIABILITY', value: '99.98%' }
-  ]
+  heroImage: '/profile.jpg'
 };
 
 export const CORE_PILLARS = [

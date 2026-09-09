@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
     <section className="w-full border-b border-primary/15 px-margin-mobile md:px-margin-desktop py-space-2xl md:py-space-4xl">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-space-xl items-start">
         {/* Left Column (Cols 1-7) */}
-        <div className="md:col-span-7 flex flex-col justify-between h-full">
+        <div className="md:col-span-7 flex flex-col">
           <div>
             <div className="flex items-center gap-space-sm mb-space-lg">
               <span className="font-label-code text-label-code px-space-xs py-0.5 bg-primary text-on-primary font-semibold">
@@ -23,23 +23,9 @@ export const Hero: React.FC = () => {
               &amp; RESEARCHER
             </h1>
 
-            <p className="font-body-lg text-body-lg text-secondary max-w-xl mb-space-2xl leading-relaxed">
+            <p className="font-body-lg text-body-lg text-secondary max-w-xl mb-space-4xl leading-relaxed">
               {PERSONAL_INFO.manifestoSubtext}
             </p>
-          </div>
-
-          {/* Quick Stats Matrix */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-space-xs border-t border-b border-primary/15 py-space-md mb-space-xl">
-            {PERSONAL_INFO.systemStats.map((stat, idx) => (
-              <div key={idx} className="flex flex-col border-r last:border-r-0 border-primary/10 pr-space-xs">
-                <span className="font-label-code text-[11px] text-secondary tracking-wider uppercase">
-                  {stat.label}
-                </span>
-                <span className="font-label-code text-[15px] font-bold text-primary mt-0.5">
-                  {stat.value}
-                </span>
-              </div>
-            ))}
           </div>
 
           {/* Hero Actions */}

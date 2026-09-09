@@ -89,9 +89,14 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, onToggleTheme }) => {
           </a>
 
           {/* Profile Glyph */}
-          <div className="w-8 h-8 bg-primary flex items-center justify-center text-on-primary" title={PERSONAL_INFO.name}>
+          <a
+            href="#contact"
+            className="w-8 h-8 bg-primary flex items-center justify-center text-on-primary hover:bg-surface hover:text-primary transition-colors"
+            title="Contact Abdullah Khalid"
+            aria-label="Go to contact section"
+          >
             <span className="material-symbols-outlined text-[18px]">person</span>
-          </div>
+          </a>
 
           {/* Mobile Hamburger Toggle */}
           <button
