@@ -19,9 +19,9 @@ export const Philosophy: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-space-xl font-body-md text-body-md text-secondary leading-relaxed mb-space-2xl">
             <p>
-I'm a Computer Science student who got pulled into machine learning by wanting to see models do something beyond a notebook — predict, decide, or power a product someone can actually use. That's meant spending as much time on data cleaning, algorithm comparison, and deployment as on the model itself, because an accurate model that no one can use isn't really finished work.            </p>
+            I'm a Computer Science student who got pulled into machine learning by wanting to see models do something beyond a notebook — predict, decide, or power a product someone can actually use. That's meant spending as much time on data cleaning, algorithm comparison, and deployment as on the model itself, because an accurate model that no one can use isn't really finished work.            </p>
             <p>
-Across my internships and projects, I've worked as an ML team lead building SmartPOS-ML, built predictive models like a disease-risk predictor with XGBoost and RandomForest, and shipped a personal dashboard end-to-end. Alongside that, I'm building out my systems side — SQL, AWS, and core data structures and algorithms — so I can take a project from raw data to a deployed interface myself.            </p>
+            Across my internships and projects, I've worked as an ML team lead building SmartPOS-ML, built predictive models like a disease-risk predictor with XGBoost and RandomForest, and shipped a personal dashboard end-to-end. Alongside that, I'm building out my systems side — SQL, AWS, and core data structures and algorithms — so I can take a project from raw data to a deployed interface myself.            </p>
           </div>
 
           {/* Core Pillars */}

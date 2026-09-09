@@ -14,7 +14,7 @@ export const Contact: React.FC = () => {
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'transmitting' | 'sent' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const targetEmail = 'abdullahkhalid166lgue@gmail.com';
+  const targetEmail = 'abdullahkhalid166e@gmail.com';
   const emailSubject = 'I have a query';
   const mailtoUrl = `mailto:${targetEmail}?subject=${encodeURIComponent(emailSubject)}`;
   const gmailWebUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(targetEmail)}&su=${encodeURIComponent(emailSubject)}`;
@@ -94,11 +94,11 @@ export const Contact: React.FC = () => {
         {/* Right Content Column */}
         <div className="md:col-span-9 flex flex-col">
           <h2 className="font-display-xl text-headline-lg-mobile md:text-display-xl uppercase text-primary tracking-tighter mb-space-lg font-bold leading-[0.98]">
-            AVAILABLE FOR SELECTIVE ADVISORY &amp; STAFF ROLES.
+            OPEN TO OPPORTUNITIES.
           </h2>
 
           <p className="font-body-lg text-body-lg text-secondary max-w-2xl mb-space-2xl leading-relaxed">
-            Direct inquiries regarding high-throughput ML systems design, GPU cluster engineering, or technical advisory engagements.
+          Reach out about internships, ML projects, or full-stack development work.          
           </p>
 
           {/* Social Links & Quick Channels */}

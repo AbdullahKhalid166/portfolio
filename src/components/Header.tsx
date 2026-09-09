@@ -80,8 +80,8 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, onToggleTheme }) => {
 
           {/* Download Resume Link */}
           <a
-            href="/Abdullah_Khalid_CV.docx"
-            download="Abdullah_Khalid_CV.docx"
+            href="/Abdullah_Khalid_CV_2026.docx"
+            download="Abdullah_Khalid_CV_2026.docx"
             className="hidden sm:inline-flex items-center justify-center font-label-code text-label-code border border-primary bg-primary text-on-primary px-space-md py-space-xs hover:bg-surface hover:text-primary transition-colors uppercase font-medium"
           >
             <FileDown size={14} className="mr-1.5" />
@@ -122,8 +122,8 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, onToggleTheme }) => {
             </a>
           ))}
           <a
-            href="/Abdullah_Khalid_CV.docx"
-            download="Abdullah_Khalid_CV.docx"
+            href="/Abdullah_Khalid_CV_2026.docx"
+            download="Abdullah_Khalid_CV_2026.docx"
             onClick={() => setMobileMenuOpen(false)}
             className="mt-space-xs w-full text-center font-label-code text-label-code border border-primary bg-primary text-on-primary py-space-sm uppercase block font-medium"
           >

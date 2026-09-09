@@ -12,14 +12,11 @@ export const SelectedWorks: React.FC = () => {
       <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-primary/15 pb-space-lg mb-space-2xl">
         <div>
           <span className="font-label-code text-label-code text-primary uppercase font-semibold">
-            03 // SYSTEM ARTIFACTS // PORTFOLIO
+            03 // MY WORK
           </span>
           <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg uppercase text-primary tracking-tight mt-1 font-bold">
-            SELECTED WORKS
+            PROJECTS
           </h2>
-        </div>
-        <div className="font-label-code text-label-code text-secondary mt-space-sm md:mt-0 font-medium">
-          [SHOWING 04 BENCHMARKED DEPLOYMENTS]
         </div>
       </div>
 

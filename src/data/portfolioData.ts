@@ -167,7 +167,6 @@ export const PROJECTS_DATA: Project[] = [
     description: 'Distributed point-of-sale intelligence framework incorporating sequence prediction models for dynamic supply demand forecasting, checkout anomaly detection, and real-time transaction reconciliation.',
     tags: ['Machine Learning', 'AWS', 'Python', 'SQL', 'Web Dev'],
     githubUrl: 'https://github.com/AbdullahKhalid166/smartpos-ml',
-    scaleMetric: '[SCALE: 150M+ EVENTS]',
     caseStudy: {
       overview: 'High-volume retail checkout systems experience extreme spiky traffic patterns. SmartPOS-ML embeds edge-compatible forecasting and fraud anomaly detection directly into POS nodes.',
       architecture: 'Hybrid edge-cloud architecture with local SQLite/ONNX models for sub-10ms offline decisioning, federating telemetry asynchronously to AWS Kinesis and Amazon Aurora.',
@@ -241,7 +240,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   },
   {
     id: 'flycon-lead',
-    period: '2026',
+    period: 'aug 2026 — sep 2026',
     company: 'FLYCON AI',
     location: 'REMOTE',
     role: 'Team Lead — Machine Learning',
@@ -256,7 +255,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   },
   {
     id: 'flycon-intern',
-    period: '2023 — 2024',
+    period: 'aug 2026 — sep 2026',
     company: 'FLYCON AI',
     location: 'REMOTE',
     role: 'Machine Learning Engineer Intern',
